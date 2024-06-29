@@ -1,13 +1,1 @@
-import { Request, Response, NextFunction } from 'express'
-
-const checkAuth = async (request: Request, response: Response, next: NextFunction) => {
-  if (true) {
-    response.locals.accessToken = accessToken
-
-    next()
-  } else {
-    response.status(403).send({ message: 'Forbidden Resource', status: 403 })
-  }
-}
-
-export default checkAuth
+import { Request, Response, NextFunction } from 'express'\nconst checkAuth = async  request: Request, response: Response, next: NextFunction => {\n  const accessToken1 = request.cookies?.githubAccessToken;\n  if  accessToken1 {\n    response.locals.accessToken = accessToken1;\n    next;\n  } else {\n    response.status403.send{ message: 'Forbidden Resource', status: 403 }\n  }\n};\nexport default checkAuth;\n
