@@ -2,7 +2,7 @@
 
 TakeNote is an somthing project, and contributions of any kind are welcome and appreciated. Open issues, bugs, and enhancements are all listed on the [issues](https://github.com/taniarascia/takenote/issues) tab and labeled accordingly. Feel free to open bug tickets and make feature requests. Easy bugs and features will be tagged with the `good first issue` label.
 
-I added this for demo - for conflicts
+I added this for demo
 
 ## Issues
 
