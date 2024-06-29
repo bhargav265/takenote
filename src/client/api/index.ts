@@ -7,7 +7,7 @@ const scratchpadNote = {
   id: uuid(),
   text: `# Scratchpad
 
-The easiest note to find.`,
+The easiest note to find this again.`,
   category: '',
   scratchpad: true,
   favorite: false,
