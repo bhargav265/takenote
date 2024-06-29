@@ -7,6 +7,12 @@ export const EmptyEditor: React.FC = () => {
         <p>
           <strong>Create a note change here 2</strong>
         </p>
+                <p>
+          <strong>Create a note change here direct update</strong>
+        </p>
+                <p>
+          <strong>Create a note change here direct update 1</strong>
+        </p>
         <p>
           <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>N</kbd>
         </p>
